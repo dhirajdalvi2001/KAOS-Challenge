@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  max-height: max-content;
+  background-color: #E5E5E5;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.nav-pills {
+  color: #000;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.main-container {
+  min-width: 320px;
+  width: 24vw;
+  min-height: 700px;
+  height: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.header-container {
+  margin: 50px 20px 10px;
+}
+
+.heading1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.heading3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.heading5 {
+  font-size: 10px;
+  font-family: "Rubik";
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #000;
+  background-color: #F3C522;
+}
+
+.addDetailsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 20px 0 0 20px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.ifsc-input {
+  margin: 5px 5px 5px 22px;
+  width: 74%;
+}
+
+input {
+  margin: 5px 22px;
+  width: 84%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  text-indent: 8px;
+  font-size: 12px;
+}
+
+.cross-button {
+  width: 26px;
+  height: 26px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  color: #fff;
+  background-color: #000;
+  border: 0;
+}
+
+.addIFSC-button {
+  margin: 5px 22px;
+  width: 70px;
+  height: 24px;
+  font-size: 9px;
+  color: #fff;
+  background-color: #000;
+  font-weight: 500;
+  border: 0;
+  border-radius: 7px;
+}
+
+.submit-button {
+  margin: 25px 22px;
+  width: 100px;
+  height: 36px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  font-weight: 500;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* AccountFeedMain */
+
+.account-feed-main {
+  margin: 20px auto;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-profile {
+  width: 25%;
+  height: 100%;
+}
+
+.profile-circle {
+  margin: 20px auto 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FF7768;
+  box-shadow: 0 3px 5px #CDCECF;
+  border-radius: 50px;
+}
+
+.profile-photo {
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  font-family: "Rubik";
+  font-weight: 700;
+  border-radius: 50px;
+  background-color: #CDCECF;
+}
+
+.username {
+  margin: 8px auto;
+  width: fit-content;
+}
+
+.card-container-box{
+  width: 64%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  margin: 8px auto;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  border: 2px solid #000;
+  box-shadow: 0 2px 0 #000;
+  border-radius: 12px;
+  background-color: #FAFAFC;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.fit-content {
+  width: fit-content;
+  height: fit-content;
+}
+
+.card-left {
+  width: 50%;
+}
+
+.card-left-top {
+  font-weight: 700;
+  height: 50%;
+}
+
+.card-left-bottom {
+  height: 50%;
+  font-size: 12px;
+  color: #7A7D84;
+}
+
+.card-right {
+  width: 50%;
+}
+
+.card-right-top {
+  height: 50%;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.card-right-bottom {
+  height: 50%;
+  font-size: 12px;
+  color: #7A7D84;
+}

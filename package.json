@@ -1,0 +1,24 @@
+{
+  "name": "kaos-hiring-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "3.5.10",
+    "apollo-server-micro": "2.18.2",
+    "axios": "0.20.0",
+    "bootstrap": "5.1.3",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-formik-ui": "^5.6.1",
+    "react-icons": "^4.3.1",
+    "reactstrap": "9.0.1"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
